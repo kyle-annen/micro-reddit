@@ -1,3 +1,24 @@
 // Place all the styles related to the Comments controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.post_list {
+  display: block;
+  font-weight: bold;
+  margin: 3px 0 0 5px;
+  line-height: 12px;
+}
+
+.post_list_body {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.post_container {
+  display: block;
+  height: 30px;
+  width: auto;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 3px;
+}
